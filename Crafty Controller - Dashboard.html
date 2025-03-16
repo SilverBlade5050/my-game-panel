@@ -1,0 +1,1679 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://192.168.68.103:3933/panel/dashboard -->
+<html lang="en" class="default" data-username="silver3933"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Required meta tags -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<title>Crafty Controller - Dashboard</title>
+<!-- plugins:css -->
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/materialdesignicons.min.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/flag-icon.min.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/themify-icons.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/typicons.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/all.css">
+<link rel="stylesheet" type="text/css" href="./Crafty Controller - Dashboard_files/css" media="screen">
+<link rel="stylesheet" type="text/css" href="./Crafty Controller - Dashboard_files/datatables.min.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/vendor.bundle.base.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/root.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/anti-lockout.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/default.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/base-style.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/crafty.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/crafty-toggle-btn.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/crafty-notification.css">
+<link rel="manifest" href="https://192.168.68.103:3933/static/assets/crafty.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Crafty">
+<link rel="apple-touch-icon" href="https://192.168.68.103:3933/static/assets/images/Crafty_4-0.png">
+<link rel="shortcut icon" sizes="192x192" href="https://192.168.68.103:3933/static/assets/images/Crafty_4-0.png">
+<!-- endinject -->
+<!-- Plugin css for this page-->
+<script src="./Crafty Controller - Dashboard_files/jquery.min.js.download"></script>
+<!-- End Plugin css for this page-->
+<!-- Layout styles -->
+
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/dark.css">
+
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/default.css">
+
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/light.css">
+
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/ronald.css">
+
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/base-style.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/crafty.css">
+<!-- End Layout styles -->
+<link rel="shortcut icon" type="image/svg+xml" href="./Crafty Controller - Dashboard_files/logo_small.svg">
+<link rel="alternate icon" href="https://192.168.68.103:3933/static/assets/images/favicon.png">
+<!-- Alpine.js - The modern jQuery alternative -->
+<script defer="" src="./Crafty Controller - Dashboard_files/cdn.min.js.download"></script>
+<!-- End Alpine.js -->
+<!-- Bootstrap Toggle -->
+<link href="./Crafty Controller - Dashboard_files/bootstrap-toggle.min.css" rel="stylesheet">
+<script defer="" src="./Crafty Controller - Dashboard_files/bootstrap-toggle.min.js.download"></script>
+<script src="./Crafty Controller - Dashboard_files/chart.min.js.download"></script>
+<script src="./Crafty Controller - Dashboard_files/hammer.min.js.download"></script>
+<script src="./Crafty Controller - Dashboard_files/chartjs-plugin-zoom.min.js.download"></script>
+<!-- End Bootstrap Toggle -->
+</head>
+<body class="sidebar-icon-only">
+<div class="container-scroller">
+<!-- partial:partials/_navbar.html -->
+<nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+<div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
+<a class="navbar-brand brand-logo" href="https://192.168.68.103:3933/panel/dashboard">
+<img src="./Crafty Controller - Dashboard_files/logo_long.svg" alt="logo"> </a>
+<a class="navbar-brand brand-logo-mini" href="https://192.168.68.103:3933/panel/dashboard">
+<img src="./Crafty Controller - Dashboard_files/logo_small.svg" alt="logo"> </a>
+</div>
+<div class="navbar-menu-wrapper d-flex align-items-center">
+<button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+<span class="mdi mdi-chevron-double-left"></span>
+<span class="mdi mdi-chevron-double-right"></span>
+</button>
+&nbsp;&nbsp;&nbsp;
+<span class="badge-pill badge-outline-primary d-none" id="server-name-nav"></span>
+<ul class="navbar-nav ml-auto">
+<li class="nav-item dropdown notif-li">
+<a class="nav-link count-indicator dropdown-toggle" id="notifDropdown" href="https://192.168.68.103:3933/panel/dashboard#" aria-expanded="false">
+<i class="fas fa-broadcast-tower
+
+"></i><span id="notif-count" class="badge badge-notify">3</span> </a>
+<div class="p-0 dropdown-menu dropdown-menu-right navbar-dropdown notif-div vw-40 max-vh-80" aria-labelledby="notifDropdown">
+<ul class="p-3" id="announcements"><li class="card-header header-sm justify-content-between align-items-center annoucement-item" id="dbc0c2aa-690a-46c3-aa67-db8e3bde0cd0"><p><i data-id="dbc0c2aa-690a-46c3-aa67-db8e3bde0cd0" class="clear-button fa-regular fa-x"></i></p><a href="https://discord.com/channels/640894866934726656/654307216970612746" target="_blank"><h6 class="annoucement-title">Crafty Notification Center</h6><small><p>2023/10/18</p></small><p>This is the Crafty notification center. This allows Arcadia Technology and Crafty Controller send notifications directly to you!</p></a></li><li class="card-header header-sm justify-content-between align-items-center annoucement-item" id="a58f8917-0bce-4b48-85d9-42054198da1c"><p><i data-id="a58f8917-0bce-4b48-85d9-42054198da1c" class="clear-button fa-regular fa-x"></i></p><a href="https://discord.com/channels/640894866934726656/654307216970612746/1184906642475712603" target="_blank"><h6 class="annoucement-title">Crafty Security Alert</h6><small><p>2023/12/14</p></small><p>If you installed Crafty prior to 2023/12/13 (4.2.2) please make sure you have changed the default ADMIN account password. There have been a number of accounts breached for failure to change this default password.</p></a></li><li class="card-header header-sm justify-content-between align-items-center annoucement-item" id="c73398cd-a789-421e-a01f-e4f5c7f620b7"><p><i data-id="c73398cd-a789-421e-a01f-e4f5c7f620b7" class="clear-button fa-regular fa-x"></i></p><a href="https://docs.craftycontrol.com/pages/getting-started/installation/casaos/#updating-crafty-on-casaos" target="_blank"><h6 class="annoucement-title">CasaOS Update</h6><small><p>2024/10/11</p></small><p>It has come to our attention Crafty's app has still not been updated on the CasaOS App Store. CasaOS is now over 4 versions behind. If you are running CasaOS you may bypass the CasaOS update system. You can find those instructions by clicking the link to our documentation on this notification.</p></a></li></ul>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link" href="https://192.168.68.103:3933/panel/panel_config">
+<i class="fas fa-cogs"></i>
+</a>
+</li>
+<li class="nav-item dropdown user-dropdown">
+<a class="nav-link dropdown-toggle" id="UserDropdown" href="https://192.168.68.103:3933/panel/dashboard#" data-toggle="dropdown" aria-expanded="false">
+<img class="img-xs rounded-circle profile-picture" onerror="pfpError(this)" src="./Crafty Controller - Dashboard_files/pic-3.png" alt="Profile image"> </a>
+<div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+<div class="dropdown-header text-center">
+<img class="img-md rounded-circle profile-picture" onerror="pfpError(this)" src="./Crafty Controller - Dashboard_files/pic-3.png" alt="Profile image">
+<p class="mb-1 mt-3 font-weight-semibold">silver3933</p>
+<p class="font-weight-light text-muted mb-0">Roles: </p>
+
+<p class="font-weight-light text-muted mb-0">Super User</p>
+
+
+<p class="font-weight-light text-muted mb-0">Email: default@example.com</p>
+</div>
+
+<a class="dropdown-item" id="support_logs"><i class="dropdown-item-icon mdi mdi-download-outline text-primary"></i>Support Logs</a>
+
+
+<a class="dropdown-item" href="https://192.168.68.103:3933/panel/activity_logs"><i class="dropdown-item-icon mdi mdi-calendar-check-outline text-primary"></i>Activity Logs</a>
+
+<a class="dropdown-item" href="https://192.168.68.103:3933/logout"><i class="dropdown-item-icon mdi mdi-power text-primary"></i>Logout</a>
+</div>
+</li>
+</ul>
+<style>
+.badge-notify {
+background: var(--purple);
+color: var(--dark);
+position: absolute;
+-moz-transform: translate(-70%, -70%);
+/* For Firefox */
+-ms-transform: translate(-70%, -70%);
+/* for IE */
+-webkit-transform: translate(-70%, -70%);
+/* For Safari, Chrome, iOS */
+-o-transform: translate(-70%, -70%);
+}
+.clear-button:hover {
+cursor: pointer;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.notif-div::-webkit-scrollbar {
+display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.notif-div {
+-ms-overflow-style: none;
+/* IE and Edge */
+scrollbar-width: none;
+/* Firefox */
+}
+</style>
+<script>
+function pfpError(image) {
+image.onerror = "";
+image.src = "/static/assets/images/faces-clipart/pic-3.png";
+return true;
+}
+function updateAnnouncements(data) {
+console.log(data);
+let text = "";
+for (let value of data) {
+text += `<li class="card-header header-sm justify-content-between align-items-center annoucement-item" id="${value.id}"><p><i data-id="${value.id}" class="clear-button fa-regular fa-x"></i></p><a href=${value.link} target="_blank"><h6 class="annoucement-title">${value.title}</h6><small><p>${value.date}</p></small><p>${value.desc}</p></li></a>`
+}
+if (data.length > 0) {
+localStorage.setItem("notif-count", data.length);
+$("#notif-count").show()
+$("#notif-count").html(data.length);
+$("#announcements").html(text);
+} else {
+$("#announcements").html(`<li><p class='my-3 text-center'><i class="fa fa-bell-slash" aria-hidden="true"></i></p></li>`);
+$("#notif-count").hide()
+}
+$(".clear-button").on("click", function (event) {
+console.log("CLEAR BUTTON")
+event.stopPropagation();
+let uuid = event.target.getAttribute("data-id");
+$(`#${uuid}`).remove();
+send_clear(uuid);
+let notif_count = localStorage.getItem("notif-count") - 1;
+if (notif_count > 0) {
+localStorage.setItem("notif-count", notif_count);
+$("#notif-count").html(notif_count);
+} else {
+$("#announcements").html(`<li><p class='my-3 text-center'><i class="fa fa-bell-slash" aria-hidden="true"></i></p></li>`)
+$("#notif-count").html("");
+}
+});
+}
+async function getAnnouncements() {
+var token = getCookie("_xsrf");
+let res = await fetch(`/api/v2/crafty/announcements/`, {
+method: 'GET',
+headers: {
+'X-XSRFToken': token
+},
+});
+let responseData = await res.json();
+console.log(responseData);
+setTimeout(function () {
+getAnnouncements();
+}, 1800000); //Wait 30 minutes in miliseconds
+console.log("Registered annoucement fetch event in 30 minutes.")
+if (responseData.status === "ok") {
+updateAnnouncements(responseData.data)
+} else {
+updateAnnouncements([])
+}
+}
+async function send_clear(uuid) {
+var token = getCookie("_xsrf");
+let body = JSON.stringify({ "id": uuid });
+console.log(body)
+let res = await fetch(`/api/v2/crafty/announcements/`, {
+method: 'POST',
+headers: {
+'X-XSRFToken': token,
+},
+body: body,
+});
+let responseData = await res.json();
+console.log(responseData);
+if (responseData.status === "ok") {
+return
+} else {
+bootbox.alert(responseData.error)
+}
+}
+/* Open / Close with Button */
+$('li.dropdown.notif-li a').on('click', function (event) {
+$(this).parent().toggleClass("show");
+$('div.notif-div').toggleClass("show");
+if ($('li.dropdown.notif-li a').attr('aria-expanded') === 'false') {
+$('li.dropdown.notif-li a').attr('aria-expanded', "true");
+}
+else {
+$('li.dropdown.notif-li a').attr('aria-expanded', "false");
+}
+});
+/* Close when clicking ouside */
+$('body').on('click', function (e) {
+if (!$('li.dropdown.notif-li').is(e.target) && $('li.dropdown.notif-li').has(e.target).length === 0 && $('show').has(e.target).length === 0) {
+$('li.notif-li').removeClass("show");
+$('li.dropdown.notif-li a').attr('aria-expanded', "false");
+$('div.notif-div').removeClass("show");
+}
+});
+$(document).ready(function () {
+getAnnouncements();
+})
+</script>
+<button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+<span class="mdi mdi-menu"></span>
+</button>
+</div>
+</nav>
+<div class="container-fluid page-body-wrapper">
+<!-- partial -->
+<!-- partial:partials/_sidebar.html -->
+<script>
+function debounce(func, wait, immediate) {
+var timeout;
+return function () {
+var context = this, args = arguments;
+var later = function () {
+timeout = null;
+if (!immediate) func.apply(context, args);
+};
+var callNow = immediate && !timeout;
+clearTimeout(timeout);
+timeout = setTimeout(later, wait);
+if (callNow) func.apply(context, args);
+};
+};
+function isExtraLargeBreakpoint() {
+const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+return vw >= 1200;
+}
+function isLargeBreakpoint() {
+const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+return vw >= 992;
+}
+$(document).ready(function () {
+sidebarResizeHandler(null);
+$(window).on(
+'resize',
+debounce(sidebarResizeHandler, 25, true)
+);
+});
+function sidebarResizeHandler(e) {
+/*
+Viewport sizes: Extra large (vw >= 1200px), large (vw >= 992px), medium (vw >= 768px)
+- A localstorage item is set to remember a user's preference between collapsed or expanded.
+- For extra large viewports, the sidebar is the user's preference (by default expanded). When
+expanded or collapsed manually, it doesn't overlap the page content and the preference
+gets saved to a localstorage item.
+- For large viewports, the sidebar is collapsed. When expanded manually, it doesn't overlap
+the page content. The user's localstorage preference is not overridden during this state.
+- For medium and below viewports, the sidebar is hidden behing a hamburger icon. When expanded, the sidebar
+overlaps the page content. The user's localstorage preference is not overridden during this state.
+More code in `app/frontend/static/assets/js/shared/misc.js` and `app/frontend/templates/base.html`
+*/
+if (isLargeBreakpoint()) {
+let value = localStorage.getItem('crafty-sidebar-expanded') !== 'false';
+$('body').toggleClass('sidebar-icon-only', !value);
+localStorage.setItem('crafty-sidebar-expanded', value);
+}
+}
+</script>
+<nav class="sidebar sidebar-offcanvas" id="sidebar">
+<ul class="nav">
+<li class="nav-item active">
+<a class="nav-link" href="https://192.168.68.103:3933/panel/dashboard" aria-expanded="true">
+<i class="fa-solid fa-diagram-project"></i>&nbsp;
+<span class="menu-title">Dashboard</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="collapse" href="https://192.168.68.103:3933/panel/dashboard#page-layouts" aria-expanded="false" aria-controls="page-layouts">
+<i class="fas fa-server"></i> &nbsp;
+<span class="menu-title">Servers</span>
+<i class="menu-arrow"></i>
+</a>
+<div class="collapse" id="page-layouts">
+<ul class="nav flex-column sub-menu" id="sidebar-servers">
+
+<li class="nav-item">
+<a class="nav-link" href="https://192.168.68.103:3933/server/step1"><i class="fas fa-plus-circle"></i> &nbsp; Create New Server</a>
+</li>
+
+
+<li class="nav-item">
+<a class="nav-link" href="https://192.168.68.103:3933/panel/server_detail?id=d45c835b-8502-4976-b0c1-8ed3fa24da37"><i class="fas fa-server"></i> &nbsp;
+bedrock server sliver smp</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="https://192.168.68.103:3933/panel/server_detail?id=949ce24d-81e9-4920-99a3-464ac5cc7daf"><i class="fas fa-server"></i> &nbsp;
+Silver</a>
+</li>
+
+</ul>
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://docs.craftycontrol.com/" target="_blank">
+<i class="fas fa-book"></i> &nbsp;
+<span class="menu-title">Documentation</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://192.168.68.103:3933/panel/wiki">
+<i class="fa fa-info-circle"></i> &nbsp;
+<span class="menu-title">In App Docs</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://discord.gg/9VJPhCE" target="_blank">
+<i class="fab fa-discord"></i> &nbsp;
+<span class="menu-title">Discord</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://192.168.68.103:3933/panel/credits">
+<i class="fas fa-heart"></i> &nbsp;
+<span class="menu-title">Credits</span>
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="https://192.168.68.103:3933/panel/contribute">
+<i class="fas fa-donate"></i> &nbsp;
+<span class="menu-title">Contribute</span>
+</a>
+</li>
+
+</ul>
+</nav>
+<script>
+$(document).ready(function () {
+$('#sidebar-servers li:gt(10)').remove();
+})
+</script>
+<!-- partial -->
+<div class="main-panel">
+<div class="warnings">
+<noscript class="noscript-warning">
+<div><strong>Warning: </strong>Crafty doesn't work properly when JavaScript isn't enabled!</div>
+</noscript>
+</div>
+
+<div class="content-wrapper">
+<!-- Page Title Header Starts-->
+<div class="row page-title-header">
+<div class="col-12">
+<div class="page-header">
+<h4 class="page-title">Dashboard
+
+</h4></div>
+</div>
+</div>
+<!-- Page Title Header Ends-->
+
+<div class="row">
+<div class="col-md-12 grid-margin">
+<div class="card">
+<div class="card-body">
+<div class="row">
+<div class="col-xl-4 col-md-5">
+<div class="d-flex">
+<div class="wrapper">
+<h5 class="mb-1 font-weight-medium text-primary"> Host
+</h5>
+<h3 class="mb-0 font-weight-semibold"> <i class="fas fa-chart-line"></i></h3>
+</div>
+<div class="wrapper my-auto ml-auto ml-lg-4">
+<p id="cpu_data" class="mb-0 text-success" data-toggle="tooltip" data-placement="top" data-html="true" title="" data-original-title="CPU Cores: 4 &lt;br /&gt; CPU Current Clock: 2901 &lt;br /&gt; CPU Maximum Clock: 2901">
+CPU Usage: <span id="cpu_usage">1.7</span>
+</p>
+<p id="mem_usage" class="mb-0 text-danger" data-toggle="tooltip" data-placement="top" title="" data-original-title="Memory Usage: 7.8GB">
+Memory Usage: <span id="mem_percent">49%</span>
+</p>
+</div>
+</div>
+</div>
+<div class="col-xl-4 col-md-4 mt-md-0 mt-4">
+<div class="d-flex">
+<div class="wrapper">
+<h5 class="mb-1 font-weight-medium text-primary">Servers
+</h5>
+<h3 class="mb-0 font-weight-semibold">2</h3>
+</div>
+<div class="wrapper my-auto ml-auto ml-lg-4">
+<p class="mb-0 text-success">0 online</p>
+<p class="mb-0 text-warning"> 2 offline</p>
+</div>
+</div>
+</div>
+<div class="col-xl-4 col-md-3 mt-md-0 mt-4">
+<div class="d-flex">
+<div class="wrapper">
+<h5 class="mb-1 font-weight-medium text-primary">Players
+</h5>
+<h3 class="mb-0 font-weight-semibold" id="total_players">0</h3>
+</div>
+<div class="wrapper my-auto ml-auto ml-lg-4">
+<p class="mb-0 text-warning"><span id="max_players">0</span> Max</p>
+</div>
+</div>
+</div>
+
+<div class="col-12 mt-4">
+<div class="d-flex">
+<div class="wrapper w-100">
+
+<h5 class="mb-1 font-weight-medium text-primary">Storage
+</h5>
+
+<div id="storage_data"><div class="row"><div id="host_storage" class="col-xl-3 col-lg-3 col-md-4 col-12">
+<h4 class="mb-0 font-weight-semibold d-inline-block text-truncate storage-heading mw-100" id="title_host_storage" data-toggle="tooltip" data-placement="bottom" title="C:\"><i class="fas fa-hdd"></i> C:\</h4>
+<div class="progress d-inline-block disk-usage">
+<div class="progress-bar bg-success" role="progressbar" style="width: 52.1%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">242.3GB / 464.9GB
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 col-lg-12 grid-margin stretch-card">
+<div class="card">
+<div class="card-header header-sm d-flex justify-content-between align-items-center">
+<h4 class="card-title"><i class="fas fa-server"></i> &nbsp;All Servers</h4>
+
+
+<span class="too_small" title="Not seeing everything on mobile?" ,="" data-content="Try scrolling the table sideways." data-placement="top"></span>
+
+
+<div><a class="nav-link" href="https://192.168.68.103:3933/server/step1"><i class="fas fa-plus-circle"></i> &nbsp; Create New Server</a></div>
+</div>
+<div class="card-body">
+
+
+<!-- View for Large screen -->
+<div class="table-responsive d-none d-sm-block">
+<div id="servers_table_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer" style="overflow: hidden;"><div class="row"><div class="col-sm-12 col-md-6"></div><div class="col-sm-12 col-md-6"><div id="servers_table_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="servers_table"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="servers_table" class="table table-hover dataTable no-footer" role="grid" aria-describedby="servers_table_info">
+<thead>
+<tr class="rounded" id="first" draggable="false" role="row"><th draggable="false" class="sorting_disabled" rowspan="1" colspan="1" style="width: 355.062px;">Server</th><th draggable="false" class="sorting_disabled" rowspan="1" colspan="1" style="width: 149.438px;">Actions</th><th draggable="false" class="sorting_disabled" rowspan="1" colspan="1" style="width: 156.375px;">CPU Usage</th><th draggable="false" class="sorting_disabled" rowspan="1" colspan="1" style="width: 202.141px;">Memory Usage</th><th draggable="false" class="sorting_disabled" rowspan="1" colspan="1" style="width: 196.203px;">Server Dir Size</th><th draggable="false" class="sorting_disabled" rowspan="1" colspan="1" style="width: 135.234px;">Players</th><th draggable="false" class="sorting_disabled" rowspan="1" colspan="1" style="width: 133.266px;">Status</th></tr>
+</thead>
+<tbody class="ui-sortable">
+
+
+
+
+
+
+
+<tr id="d45c835b-8502-4976-b0c1-8ed3fa24da37" draggable="true" role="row" class="odd">
+<td draggable="false" style="width: 385.047px;">
+<i class="fas fa-server ui-sortable-handle"></i>
+
+<a draggable="false" href="https://192.168.68.103:3933/panel/server_detail?id=d45c835b-8502-4976-b0c1-8ed3fa24da37" class="ui-sortable-handle">
+bedrock server sliver smp
+</a>
+
+</td>
+<td draggable="false" id="controlsd45c835b-8502-4976-b0c1-8ed3fa24da37" class="actions_serverlist" style="width: 176.484px;">
+
+
+<a data-id="d45c835b-8502-4976-b0c1-8ed3fa24da37" class="play_button ui-sortable-handle" data-toggle="tooltip" title="" data-original-title="Start">
+<i class="fas fa-play"></i>
+</a> &nbsp;
+<a data-id="d45c835b-8502-4976-b0c1-8ed3fa24da37" class="clone_button ui-sortable-handle" data-toggle="tooltip" title="" data-original-title="Clone">
+<i class="fas fa-clone"></i>
+</a> &nbsp;
+<a data-id="d45c835b-8502-4976-b0c1-8ed3fa24da37" class="kill_button ui-sortable-handle" data-toggle="tooltip" title="" data-original-title="Kill Process">
+<i class="fas fa-skull"></i>
+</a> &nbsp;
+
+
+</td>
+<td draggable="false" id="server_cpu_d45c835b-8502-4976-b0c1-8ed3fa24da37" style="width: 179.797px;">
+<div class="progress mb-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="0.0">
+<div class="progress-bar
+
+bg-success
+
+" role="progressbar" style="width: 0.0%" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+0.0%
+</td>
+<td draggable="false" id="server_mem_d45c835b-8502-4976-b0c1-8ed3fa24da37" style="width: 220.938px;">
+<div class="progress mb-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="0.0">
+<div class="progress-bar
+
+bg-success
+
+" role="progressbar" style="width: 0.0%" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+0.0% -
+
+0 MB
+
+</td>
+<td draggable="false" id="server_world_d45c835b-8502-4976-b0c1-8ed3fa24da37" style="width: 213.047px;">
+390.6MB
+</td>
+<td draggable="false" id="server_desc_d45c835b-8502-4976-b0c1-8ed3fa24da37" style="width: 154.219px;">
+
+0 / 0 Max
+
+<span class="server-player-totals" id="server_players_d45c835b-8502-4976-b0c1-8ed3fa24da37" data-serverid="d45c835b-8502-4976-b0c1-8ed3fa24da37" data-players="0" data-max="0" data-count="True"></span>
+</td>
+<td draggable="false" style="width: 150.953px;">
+<div id="server_running_status_d45c835b-8502-4976-b0c1-8ed3fa24da37" data-toggle="tooltip" title="" data-original-title="19132">
+
+<span class="text-warning"><i class="fas fa-ban"></i> Offline</span>
+
+</div></td>
+</tr><tr id="949ce24d-81e9-4920-99a3-464ac5cc7daf" draggable="true" role="row" class="even">
+<td draggable="false" style="width: 378.828px;">
+<i class="fas fa-server ui-sortable-handle"></i>
+
+<a draggable="false" href="https://192.168.68.103:3933/panel/server_detail?id=949ce24d-81e9-4920-99a3-464ac5cc7daf" class="ui-sortable-handle">
+Silver
+</a>
+
+</td>
+<td draggable="false" id="controls949ce24d-81e9-4920-99a3-464ac5cc7daf" class="actions_serverlist" style="width: 188.719px;">
+
+
+<a data-id="949ce24d-81e9-4920-99a3-464ac5cc7daf" class="play_button ui-sortable-handle" data-toggle="tooltip" title="" data-original-title="Start">
+<i class="fas fa-play"></i>
+</a> &nbsp;
+<a data-id="949ce24d-81e9-4920-99a3-464ac5cc7daf" class="clone_button ui-sortable-handle" data-toggle="tooltip" title="" data-original-title="Clone">
+<i class="fas fa-clone"></i>
+</a> &nbsp;
+<a data-id="949ce24d-81e9-4920-99a3-464ac5cc7daf" class="kill_button ui-sortable-handle" data-toggle="tooltip" title="" data-original-title="Kill Process">
+<i class="fas fa-skull"></i>
+</a> &nbsp;
+
+
+</td>
+<td draggable="false" id="server_cpu_949ce24d-81e9-4920-99a3-464ac5cc7daf" style="width: 188.672px;">
+<div class="progress mb-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="0.0">
+<div class="progress-bar
+
+bg-success
+
+" role="progressbar" style="width: 0.0%" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+0.0%
+</td>
+<td draggable="false" id="server_mem_949ce24d-81e9-4920-99a3-464ac5cc7daf" style="width: 225.578px;">
+<div class="progress mb-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="0.0">
+<div class="progress-bar
+
+bg-success
+
+" role="progressbar" style="width: 0.0%" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+0.0% -
+
+0 MB
+
+</td>
+<td draggable="false" id="server_world_949ce24d-81e9-4920-99a3-464ac5cc7daf" style="width: 218.109px;">
+266.3MB
+</td>
+<td draggable="false" id="server_desc_949ce24d-81e9-4920-99a3-464ac5cc7daf" style="width: 164.188px;">
+
+0 / 0 Max
+
+<span class="server-player-totals" id="server_players_949ce24d-81e9-4920-99a3-464ac5cc7daf" data-serverid="949ce24d-81e9-4920-99a3-464ac5cc7daf" data-players="0" data-max="0" data-count="True"></span>
+</td>
+<td draggable="false" style="width: 160.578px;">
+<div id="server_running_status_949ce24d-81e9-4920-99a3-464ac5cc7daf" data-toggle="tooltip" title="" data-original-title="25565">
+
+<span class="text-warning"><i class="fas fa-ban"></i> Offline</span>
+
+</div></td>
+</tr></tbody>
+</table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="servers_table_info" role="status" aria-live="polite">Showing 1 to 2 of 2 entries|</div></div><div class="col-sm-12 col-md-7"></div></div></div>
+</div>
+
+
+<!-- View for Small screen -->
+<div class="d-sm-none d-block">
+<div class="accordion" id="accordionServers">
+
+<div class="card">
+<div class="card-header" id="heading-d45c835b-8502-4976-b0c1-8ed3fa24da37">
+<h2 class="mb-0 container overflow-hidden">
+<div class="row">
+<div class="col-10 col-lg-3 mx-0 px-0">
+
+<a class="btn btn-link d-flex justify-content-start" type="button" href="https://192.168.68.103:3933/panel/server_detail?id=d45c835b-8502-4976-b0c1-8ed3fa24da37">
+<i class="fas fa-server"></i> bedrock server sliver smp
+</a>
+
+</div>
+<div class="col-2 col-lg-3 mx-0 px-0">
+<a class="btn btn-link d-flex justify-content-center" type="button" data-toggle="collapse" data-target="#collapse-d45c835b-8502-4976-b0c1-8ed3fa24da37" aria-expanded="false" aria-controls="collapse-d45c835b-8502-4976-b0c1-8ed3fa24da37">
+<i class="fas fa-chart-bar"></i>
+</a>
+</div>
+<div class="col-4 col-lg-3 mx-0 px-0">
+<a id="m_server_running_status_d45c835b-8502-4976-b0c1-8ed3fa24da37" class="btn btn-link d-flex justify-content-start" type="button">
+
+<span class="text-warning"><i class="fas fa-ban"></i> Offline</span>
+
+</a>
+</div>
+<div class="col-8 col-lg-3 mx-0 px-0">
+<div id="controlsd45c835b-8502-4976-b0c1-8ed3fa24da37" class="container overflow-hidden">
+
+
+<div class="row">
+<div class="col-4 px-0">
+<a data-id="d45c835b-8502-4976-b0c1-8ed3fa24da37" class="btn play_button actions_serveritem" data-toggle="tooltip" title="" data-original-title="Start">
+<i class="fas fa-play"></i>
+</a>
+</div>
+<div class="col-4 px-0">
+<a data-id="d45c835b-8502-4976-b0c1-8ed3fa24da37" class="btn clone_button actions_serveritem" data-toggle="tooltip" title="" data-original-title="Clone">
+<i class="fas fa-clone"></i>
+</a>
+</div>
+<div class="col-4 px-0">
+<a data-id="d45c835b-8502-4976-b0c1-8ed3fa24da37" class="btn kill_button actions_serveritem" data-toggle="tooltip" title="" data-original-title="Kill Process">
+<i class="fas fa-skull"></i></a>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+</h2>
+</div>
+<div id="collapse-d45c835b-8502-4976-b0c1-8ed3fa24da37" class="collapse" aria-labelledby="heading-d45c835b-8502-4976-b0c1-8ed3fa24da37" data-parent="#accordionServers">
+<div class="card-body">
+<div class="row">
+<div class="col-6">
+<h6>CPU Usage</h6>
+<div id="m_server_cpu_d45c835b-8502-4976-b0c1-8ed3fa24da37">
+<div class="progress mb-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="0.0">
+<div class="progress-bar
+
+bg-success
+
+" role="progressbar" style="width: 0.0%" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+0.0%
+</div>
+</div>
+<div class="col-6">
+<h6>Memory Usage</h6>
+<div draggable="false" id="m_server_mem_d45c835b-8502-4976-b0c1-8ed3fa24da37">
+<div class="progress mb-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="0.0">
+<div class="progress-bar
+
+bg-success
+
+" role="progressbar" style="width: 0.0%" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100">
+</div>
+</div>
+0.0% -
+
+0 MB
+
+</div>
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-6">
+<h6>Server Dir Size</h6>
+<div draggable="false" id="m_server_world_d45c835b-8502-4976-b0c1-8ed3fa24da37">
+390.6MB
+</div>
+</div>
+<div class="col-6">
+<h6>Players</h6>
+<div draggable="false" id="m_server_desc_d45c835b-8502-4976-b0c1-8ed3fa24da37">
+
+0 / 0 Max
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading-949ce24d-81e9-4920-99a3-464ac5cc7daf">
+<h2 class="mb-0 container overflow-hidden">
+<div class="row">
+<div class="col-10 col-lg-3 mx-0 px-0">
+
+<a class="btn btn-link d-flex justify-content-start" type="button" href="https://192.168.68.103:3933/panel/server_detail?id=949ce24d-81e9-4920-99a3-464ac5cc7daf">
+<i class="fas fa-server"></i> Silver
+</a>
+
+</div>
+<div class="col-2 col-lg-3 mx-0 px-0">
+<a class="btn btn-link d-flex justify-content-center" type="button" data-toggle="collapse" data-target="#collapse-949ce24d-81e9-4920-99a3-464ac5cc7daf" aria-expanded="false" aria-controls="collapse-949ce24d-81e9-4920-99a3-464ac5cc7daf">
+<i class="fas fa-chart-bar"></i>
+</a>
+</div>
+<div class="col-4 col-lg-3 mx-0 px-0">
+<a id="m_server_running_status_949ce24d-81e9-4920-99a3-464ac5cc7daf" class="btn btn-link d-flex justify-content-start" type="button">
+
+<span class="text-warning"><i class="fas fa-ban"></i> Offline</span>
+
+</a>
+</div>
+<div class="col-8 col-lg-3 mx-0 px-0">
+<div id="controls949ce24d-81e9-4920-99a3-464ac5cc7daf" class="container overflow-hidden">
+
+
+<div class="row">
+<div class="col-4 px-0">
+<a data-id="949ce24d-81e9-4920-99a3-464ac5cc7daf" class="btn play_button actions_serveritem" data-toggle="tooltip" title="" data-original-title="Start">
+<i class="fas fa-play"></i>
+</a>
+</div>
+<div class="col-4 px-0">
+<a data-id="949ce24d-81e9-4920-99a3-464ac5cc7daf" class="btn clone_button actions_serveritem" data-toggle="tooltip" title="" data-original-title="Clone">
+<i class="fas fa-clone"></i>
+</a>
+</div>
+<div class="col-4 px-0">
+<a data-id="949ce24d-81e9-4920-99a3-464ac5cc7daf" class="btn kill_button actions_serveritem" data-toggle="tooltip" title="" data-original-title="Kill Process">
+<i class="fas fa-skull"></i></a>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+</h2>
+</div>
+<div id="collapse-949ce24d-81e9-4920-99a3-464ac5cc7daf" class="collapse" aria-labelledby="heading-949ce24d-81e9-4920-99a3-464ac5cc7daf" data-parent="#accordionServers">
+<div class="card-body">
+<div class="row">
+<div class="col-6">
+<h6>CPU Usage</h6>
+<div id="m_server_cpu_949ce24d-81e9-4920-99a3-464ac5cc7daf">
+<div class="progress mb-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="0.0">
+<div class="progress-bar
+
+bg-success
+
+" role="progressbar" style="width: 0.0%" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+0.0%
+</div>
+</div>
+<div class="col-6">
+<h6>Memory Usage</h6>
+<div draggable="false" id="m_server_mem_949ce24d-81e9-4920-99a3-464ac5cc7daf">
+<div class="progress mb-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="0.0">
+<div class="progress-bar
+
+bg-success
+
+" role="progressbar" style="width: 0.0%" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100">
+</div>
+</div>
+0.0% -
+
+0 MB
+
+</div>
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-6">
+<h6>Server Dir Size</h6>
+<div draggable="false" id="m_server_world_949ce24d-81e9-4920-99a3-464ac5cc7daf">
+266.3MB
+</div>
+</div>
+<div class="col-6">
+<h6>Players</h6>
+<div draggable="false" id="m_server_desc_949ce24d-81e9-4920-99a3-464ac5cc7daf">
+
+0 / 0 Max
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- content-wrapper ends -->
+<div id="mobile"></div>
+
+<!-- partial:partials/_footer.html -->
+<footer class="footer">
+<div class="container-fluid ">
+<span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2021 - <span x-data="" x-text="new Date().getFullYear()">2025</span> <a href="https://craftycontrol.com/" target="_blank">Crafty Controller</a>. All rights reserved.</span>
+<span class="float-none float-sm-right d-block mt-1 mt-sm-0">&nbsp;&nbsp;Version: 4.4.7</span>
+
+</div>
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/crafty-footer.css">
+</footer>
+<!-- partial -->
+</div>
+<!-- main-panel ends -->
+</div>
+<!-- page-body-wrapper ends -->
+</div>
+<div class="notifications"></div>
+<script src="./Crafty Controller - Dashboard_files/vendor.bundle.base.js.download"></script>
+<script src="./Crafty Controller - Dashboard_files/off-canvas.js.download"></script>
+<script src="./Crafty Controller - Dashboard_files/hoverable-collapse.js.download"></script>
+<script src="./Crafty Controller - Dashboard_files/misc.js.download"></script>
+<script type="text/javascript" src="./Crafty Controller - Dashboard_files/datatables.min.js.download"></script>
+<script src="./Crafty Controller - Dashboard_files/bootbox.min.js.download"></script>
+<script type="text/javascript" src="./Crafty Controller - Dashboard_files/motd.js.download"></script>
+<script>
+/**
+* Returns a random number between min (inclusive) and max (exclusive)
+*/
+function getRandomArbitrary(min, max) {
+return Math.random() * (max - min) + min;
+}
+/**
+* Returns a random integer between min (inclusive) and max (inclusive).
+* The value is no lower than min (or the next integer greater than min
+* if min isn't an integer) and no greater than max (or the next integer
+* lower than max if max isn't an integer).
+* Using Math.round() will give you a non-uniform distribution!
+*/
+function getRandomInt(min, max) {
+min = Math.ceil(min);
+max = Math.floor(max);
+return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+$.extend($.fn.dataTable.defaults, {
+// 
+language: {"aria": {"sortAscending": ": activate to sort column ascending", "sortDescending": ": activate to sort column descending"}, "buttons": {"collection": "Collection <span class='ui-button-icon-primary ui-icon ui-icon-triangle-1-s'/>", "colvis": "Column Visibility", "colvisRestore": "Restore visibility", "copy": "Copy", "copyKeys": "Press ctrl or u2318 + C to copy the table data to your system clipboard.<br><br>To cancel, click this message or press escape.", "copySuccess": {"1": "Copied 1 row to clipboard", "_": "Copied %d rows to clipboard"}, "copyTitle": "Copy to Clipboard", "csv": "CSV", "excel": "Excel", "pageLength": {"-1": "Show all rows", "1": "Show 1 row", "_": "Show %d rows"}, "pdf": "PDF", "print": "Print"}, "decimal": ".", "emptyTable": "No data available in table", "info": "Showing _START_ to _END_ of _TOTAL_ entries", "infoEmpty": "Showing 0 to 0 of 0 entries", "infoFiltered": "(filtered from _MAX_ total entries)", "infoPostFix": "|", "lengthMenu": "Show _MENU_ entries", "loadingRecords": "Loading...", "paginate": {"first": "First", "last": "Last", "next": "Next", "previous": "Previous"}, "processing": "Processing...", "search": "Search:", "select": {"cells": {"0": "Click on a cel to select it", "1": "%d cell selected", "_": "%d cells selected"}, "columns": {"0": "Click on a column to select it", "1": "%d column selected", "_": "%d columns selected"}, "rows": {"0": "Click on a row to select it", "1": "%d row selected", "_": "%d rows selected"}}, "thousands": ",", "zeroRecords": "No matching records found"}
+})
+//used to get cookies from browser - this is part of tornados xsrf protection - it's for extra security
+function getCookie(name) {
+var r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
+return r ? r[1] : undefined;
+}
+// tool tips
+$(function () {
+$('[data-toggle="tooltip"]').tooltip()
+})
+// Notify
+$(document).ready(function () {
+$("#notificationDropdown").click(function () {
+$.get("/ajax/announcements", function (data) {
+console.log(data);
+bootbox.alert({
+title: "Notifications",
+message: data,
+});
+});
+});
+});
+let usingWebSockets = false;
+let webSocket = null;
+let websocketTimeoutId = null;
+// 
+usingWebSockets = true;
+let listenEvents = [];
+let wsOpen = false;
+/**
+* @type {number | null} reconnectorId An interval ID for the reconnector.
+*/
+let reconnectorId = null;
+let failedConnectionCounter = 0; // https://stackoverflow.com/a/37038217/15388424
+const wsPageQueryParams = 'page_query_params=' + encodeURIComponent(location.search)
+const wsPage = 'page=' + encodeURIComponent(location.pathname)
+const sendWssError = () => wsOpen || warn(
+'WebSockets are required for Crafty to work. This websocket connection has been closed. Are you using a reverse proxy?',
+link = 'https://docs.craftycontrol.com/pages/getting-started/proxies/',
+link_msg = "See our documentation for details",
+className = 'wssError'
+)
+function startWebSocket() {
+console.log('%c[Crafty Controller] %cConnecting the WebSocket', 'font-weight: 900; color: #800080;', 'font-weight: 900; color: #eee;');
+try {
+var wsInternal = new WebSocket('wss://' + location.host + '/ws?' + wsPage + '&' + wsPageQueryParams);
+wsInternal.onopen = function () {
+console.log('opened WebSocket connection:', wsInternal)
+wsOpen = true;
+failedConnectionCounter = 0;
+if (typeof reconnectorId === 'number') {
+document.querySelectorAll('.wssError').forEach(el => el.remove())
+clearInterval(reconnectorId);
+reconnectorId = null;
+}
+};
+wsInternal.onmessage = function (rawMessage) {
+var message = JSON.parse(rawMessage.data);
+console.log('got message: ', message)
+listenEvents
+.filter(listenedEvent => listenedEvent.event == message.event)
+.forEach(listenedEvent => listenedEvent.callback(message.data))
+};
+wsInternal.onerror = function (errorEvent) {
+console.error('WebSocket Error', errorEvent);
+};
+wsInternal.onclose = function (closeEvent) {
+wsOpen = false;
+console.log('Closed WebSocket', closeEvent);
+if (!document.hidden) {
+if (typeof reconnectorId !== 'number') {
+setTimeout(sendWssError, 7000);
+}
+console.info("Reconnecting with a timeout of", (getRandomArbitrary(0, 2 ** failedConnectionCounter - 1) + 5) * 1000, "milliseconds");
+// Discard old websocket and create a new one in 5 seconds
+wsInternal = null
+reconnectorId = setTimeout(startWebSocket, (getRandomArbitrary(0, 2 ** failedConnectionCounter - 1) + 5) * 1000)
+failedConnectionCounter++;
+}
+};
+webSocket = {
+on: function (event, callback) {
+console.log('registered ' + event + ' event');
+listenEvents.push({ event: event, callback: callback })
+},
+emit: function (event, data) {
+var message = {
+event: event,
+data: data
+}
+wsInternal.send(JSON.stringify(message));
+},
+close: function (code, reason) {
+wsInternal.close(code, reason);
+},
+getStatus: function () {
+return wsInternal.readyState;
+}
+}
+} catch (error) {
+console.error('Error while making websocket helpers', error);
+usingWebSockets = false;
+}
+}
+startWebSocket();
+// 
+// Managing Connexions for Multi Tab opened to reduce bandwith usage
+document.addEventListener("visibilitychange", () => {
+if (document.visibilityState == "hidden") {
+websocketTimeoutId = setTimeout(() => {
+webSocket.close(1000, "Closed due to Inactivity");
+console.log('%c[Crafty Controller] %cClose Websocket due to Tab not active after 5s', 'font-weight: 900; color: #800080;', 'font-weight: 900; color: #eee;');
+}, 10000);
+} else {
+clearTimeout(websocketTimeoutId)
+if (webSocket.getStatus() == WebSocket.CLOSED) {
+startWebSocket();
+}
+}
+});
+if (webSocket) {
+webSocket.on('send_start_error', function (start_error) {
+var x = document.querySelector('.bootbox');
+if (x) {
+x.remove()
+}
+var x = document.querySelector('.modal-backdrop');
+if (x) {
+x.remove()
+}
+bootbox.alert({
+message: start_error.error,
+callback: function () {
+location.reload();
+}
+})
+});
+webSocket.on('support_status_update', function (logs) {
+if (logs.percent >= 100) {
+document.getElementById('logs_progress_bar').innerHTML = '100%';
+document.getElementById('logs_progress_bar').style.width = '100%';
+} else {
+document.getElementById('logs_progress_bar').innerHTML = logs.percent + '%';
+document.getElementById('logs_progress_bar').style.width = logs.percent + '%';
+}
+});
+webSocket.on('send_logs_bootbox', function (server_id) {
+var x = document.querySelector('.bootbox');
+if (x) {
+x.remove()
+}
+var x = document.querySelector('.modal-backdrop');
+if (x) {
+x.remove()
+}
+bootbox.confirm({
+title: "Download Support Logs?",
+message: "We&#x27;ve finished preparing your support logs. Please click download to download",
+buttons: {
+confirm: {
+label: 'Download',
+className: 'btn-info'
+}
+},
+callback: function (result) {
+if (result) {
+location.href = "/panel/download_support_package";
+} else {
+bootbox.close();
+}
+}
+});
+});
+webSocket.on('send_eula_bootbox', function (server_id) {
+var x = document.querySelector('.bootbox');
+if (x) {
+x.remove()
+}
+var x = document.querySelector('.modal-backdrop');
+if (x) {
+x.remove()
+}
+bootbox.confirm({
+title: "Agree To EULA",
+message: "You must agree to the <a href='https://www.minecraft.net/en-us/eula' target='_blank'>Minecraft EULA</a>",
+buttons: {
+confirm: {
+label: 'Yes',
+className: 'btn-info'
+},
+cancel: {
+label: 'No',
+className: 'btn-secondary'
+}
+},
+callback: function (result) {
+if (result == true) {
+eulaAgree(server_id.id)
+}
+else {
+location.reload()
+}
+}
+})
+});
+}
+async function eulaAgree(server_id, command) {
+//< !--this getCookie function is in base.html-- >
+const token = getCookie("_xsrf");
+let res = await fetch(`/api/v2/servers/${server_id}/action/eula/`, {
+method: 'POST',
+headers: {
+'X-XSRFToken': token
+},
+});
+let responseData = await res.json();
+if (responseData.status === "ok") {
+window.location.reload();
+} else {
+bootbox.alert({
+title: responseData.error,
+message: responseData.error_data
+});
+}
+}
+function warn(message, link = null, link_msg = null, className = null, bg_color = "#f7970f") {
+var closeEl = document.createElement('span');
+var strongEL = document.createElement('strong');
+var msgEl = document.createElement('div');
+closeEl.innerHTML = '&times;';
+strongEL.textContent = 'Warning: ';
+msgEl.append(strongEL, message);
+closeEl.style.marginLeft = '15px';
+closeEl.style.fontWeight = 'bold';
+closeEl.style.float = 'right';
+closeEl.style.fontSize = '22px';
+closeEl.style.lineHeight = '20px';
+closeEl.style.cursor = 'pointer';
+closeEl.addEventListener('click', function () { this.parentElement.style.display = 'none'; });
+var parentEl = document.createElement('div');
+parentEl.style.padding = '20px';
+parentEl.style.backgroundColor = bg_color;
+parentEl.appendChild(closeEl);
+parentEl.appendChild(msgEl);
+if (link) {
+let linkEl = document.createElement('a')
+linkEl.href = link;
+linkEl.innerHTML = link_msg;
+//linkEl.style.color = 'white';
+linkEl.style.textDecoration = 'underline';
+linkEl.target = "_blank";
+parentEl.appendChild(linkEl);
+}
+if (className) {
+parentEl.classList.add(className);
+}
+document.querySelector('.warnings').appendChild(parentEl);
+}
+function closeNotification(element) {
+element.parentElement.classList.add('remove');
+setTimeout(function () {
+element.parentElement.remove();
+}, 500);
+}
+function notify(message) {
+console.log(`notify(${message})`);
+var intId = getRandomInt(0, 100);
+var toastDiv = document.createElement('div');
+toastDiv.setAttribute("id", "toast_" + intId);
+toastDiv.setAttribute("class", "notification toast");
+toastDiv.setAttribute("role", "alert");
+toastDiv.setAttribute("aria-lived", "assertive");
+toastDiv.setAttribute("aria-atomic", "true");
+toastDiv.setAttribute("data-delay", "3000");
+toastDiv.setAttribute("data-animation", "true");
+toastDiv.setAttribute("data-autohide", "false");
+var toastHeaderDiv = document.createElement('div');
+toastHeaderDiv.setAttribute("class", "toast-header");
+var toastHeaderImg = document.createElement('img');
+toastHeaderImg.setAttribute("src", "/static/assets/images/logo_small.svg");
+toastHeaderImg.setAttribute("class", "mr-auto");
+toastHeaderImg.setAttribute("alt", "logo");
+toastHeaderDiv.appendChild(toastHeaderImg);
+var toastHeaderTitle = document.createElement('strong');
+toastHeaderTitle.setAttribute("class", "mr-auto");
+toastHeaderTitle.innerHTML = " Crafty Controller ";
+toastHeaderDiv.appendChild(toastHeaderTitle);
+var toastHeaderCloseSpan = document.createElement('span');
+toastHeaderCloseSpan.setAttribute("class", "fa-solid fa-xmark");
+toastHeaderCloseSpan.setAttribute("aria-hidden", "true");
+toastHeaderCloseSpan.addEventListener('click', function () { closeNotification(this.parentElement) });
+toastHeaderDiv.appendChild(toastHeaderCloseSpan);
+var toastBodyDiv = document.createElement('div');
+toastBodyDiv.setAttribute("class", "toast-body");
+toastBodyDiv.textContent = message;
+toastDiv.appendChild(toastHeaderDiv);
+toastDiv.appendChild(toastBodyDiv);
+document.querySelector('.notifications').appendChild(toastDiv);
+$('#toast_' + intId).toast('show');
+setTimeout(function () {
+toastDiv.classList.add('active');
+}, 200);
+setTimeout(function (element) {
+closeNotification(element.parentElement);
+}, 7500, toastHeaderCloseSpan);
+`
+<div class="notification">
+<p>Hello, World! This text should overflow</p>
+<span>&times;</span>
+</div>
+`
+}
+webSocket.on('notification', notify);
+document.addEventListener('alpine:init', () => {
+console.log('%c[Crafty Controller] %cAlpine.js pre-initialization!', 'font-weight: 900; color: #800080;', 'color: #eee;');
+});
+document.addEventListener('alpine:initialized', () => {
+console.log('%c[Crafty Controller] %cAlpine.js initialized!', 'font-weight: 900; color: #800080;', 'color: #eee;');
+});
+$(document).ready(function () {
+console.log('%c[Crafty Controller] %cReady for JS!', 'font-weight: 900; color: #800080;', 'font-weight: 900; color: #eee;');
+if ($(document.documentElement).data("username") === "anti-lockout-user") {
+warn(
+'⚠️You are in a recovery account. Access is limited!',
+link = '/logout',
+link_msg = "Click here to log out after you change your password. ⚠️",
+className = 'anti-lockout',
+bg_color = '#6887dc'
+)
+}
+$('#support_logs').click(function () {
+var dialog = bootbox.dialog({
+message: "<p class='text- center mb - 0'><i class='fa fa - spin fa - cog'></i> Please wait while we prepare your logs... We`ll send a notification when they`re ready. This may take a while for large deployments.</p>",
+closeButton: false
+});
+setTimeout(function () {
+location.href = "/panel/support_logs";
+}, 6000);
+});
+});
+$(document).ready(() => {
+if ('serviceWorker' in navigator) {
+navigator.serviceWorker.register('/static/assets/js/shared/service-worker.js', { scope: '/' })
+.then(function (registration) {
+console.log('Service Worker Registered');
+});
+}
+});
+</script>
+
+<script src="./Crafty Controller - Dashboard_files/motd.js.download"></script>
+<script>
+function display_motd() {
+let all_motds = Array.from(document.getElementsByClassName('input_motd'));
+for (element of all_motds) {
+initParser(element.id, element.id);
+};
+}
+$(document).ready(function () {
+$('[data-toggle="popover"]').popover();
+if ($(window).width() < 1000) {
+$('.too_small').popover("show");
+}
+});
+$(window).ready(function () {
+$('body').click(function () {
+$('.too_small').popover("hide");
+});
+});
+$(window).resize(function () {
+// This will execute whenever the window is resized
+if ($(window).width() < 1000) {
+$('.too_small').popover("show");
+}
+else {
+$('.too_small').popover("hide");
+} // New width
+});
+</script>
+<script>
+async function send_command(server_id, command) {
+/* this getCookie function is in base.html */
+const token = getCookie("_xsrf");
+let res = await fetch(`/api/v2/servers/${server_id}/action/${command}`, {
+method: 'POST',
+headers: {
+'token': token,
+},
+});
+let responseData = await res.json();
+if (responseData.status === "ok") {
+if (command === "clone_server") {
+window.location.reload()
+}
+console.log("Command received successfully")
+} else {
+setTimeout(function () {
+$('.modal').modal('hide');
+bootbox.alert({
+title: responseData.error,
+message: responseData.error_data
+});
+}, 2000)
+}
+}
+function warnServer(message, link = null, className = null) {
+var closeEl = document.createElement('span');
+var strongEL = document.createElement('strong');
+var msgEl = document.createElement('div');
+closeEl.innerHTML = '&times;';
+strongEL.textContent = 'Warning: ';
+msgEl.append(strongEL, message);
+closeEl.style.marginLeft = '15px';
+closeEl.style.fontWeight = 'bold';
+closeEl.style.float = 'right';
+closeEl.style.fontSize = '22px';
+closeEl.style.lineHeight = '20px';
+closeEl.style.cursor = 'pointer';
+closeEl.addEventListener('click', function () { this.parentElement.style.display = 'none'; });
+var parentEl = document.createElement('div');
+parentEl.style.padding = '20px';
+parentEl.style.backgroundColor = '#f7970f';
+parentEl.appendChild(closeEl);
+parentEl.appendChild(msgEl);
+if (link) {
+let linkEl = document.createElement('a')
+linkEl.href = link;
+linkEl.innerHTML = "See our documentation for details.";
+linkEl.style.color = 'white';
+linkEl.style.textDecoration = 'underline';
+linkEl.target = "_blank";
+parentEl.appendChild(linkEl);
+}
+if (className) {
+parentEl.classList.add(className);
+}
+document.querySelector('.dynamicMsg').appendChild(parentEl);
+}
+function update_one_server_status(server) {
+/* Mobile view update */
+server_cpu = document.getElementById('server_cpu_' + server.id);
+server_mem = document.getElementById('server_mem_' + server.id);
+server_world = document.getElementById('server_world_' + server.id);
+server_desc = document.getElementById('server_desc_' + server.id);
+server_online_status = document.getElementById('server_running_status_' + server.id);
+server_players = document.getElementById('server_players_' + server.id);
+total_players = document.getElementById('total_players');
+/* Mobile view update */
+m_server_cpu = document.getElementById('m_server_cpu_' + server.id);
+m_server_mem = document.getElementById('m_server_mem_' + server.id);
+m_server_world = document.getElementById('m_server_world_' + server.id);
+m_server_desc = document.getElementById('m_server_desc_' + server.id);
+m_server_online_status = document.getElementById('m_server_running_status_' + server.id);
+console.log("Received Data : " + server.id + ": " + server);
+/* TODO Update each element */
+/* Update CPU */
+cpu_status = "bg-danger";
+if (server.cpu <= 33) {
+cpu_status = "bg-success";
+} else if (server.cpu > 33 && server.cpu <= 66) {
+cpu_status = "bg-warning";
+}
+server_cpu.innerHTML = `<div class="progress mb-1" data-toggle="tooltip" data-placement="top" title="` + server.cpu + `"><div class="progress-bar ` + cpu_status + `" role="progressbar" style="width: ` + server.cpu + `%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div></div>` + server.cpu + `%`;
+m_server_cpu.innerHTML = `<div class="progress mb-1" data-toggle="tooltip" data-placement="top" title="` + server.cpu + `"><div class="progress-bar ` + cpu_status + `" role="progressbar" style="width: ` + server.cpu + `%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div></div>` + server.cpu + `%`;
+/* Update Memory */
+mem_status = "bg-danger";
+total_mem = "0 MB";
+if (server.mem_percent <= 33) {
+mem_status = "bg-success";
+} else if (server.mem_percent > 33 && server.mem_percent <= 66) {
+mem_status = "bg-warning";
+}
+if (server.mem !== 0) {
+total_mem = server.mem;
+}
+server_mem.innerHTML = `<div class="progress mb-1" data-toggle="tooltip" data-placement="top" title="` + server_mem + `"><div class="progress-bar ` + mem_status + `" role="progressbar" style="width: ` + server.mem_percent + `%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div></div>` + server.mem_percent + `% - ` + total_mem;
+m_server_mem.innerHTML = `<div class="progress mb-1" data-toggle="tooltip" data-placement="top" title="` + server_mem + `"><div class="progress-bar ` + mem_status + `" role="progressbar" style="width: ` + server.mem_percent + `%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div></div>` + server.mem_percent + `% - ` + total_mem;
+/* Update World Infos */
+server_world.innerHTML = server.world_size
+m_server_world.innerHTML = server.world_size
+/* Update Server Infos */
+if (server.int_ping_results) {
+/* Update Players */
+if (server.players) {
+server_desc.innerHTML = server.online + ` / ` + server.max + ` Max`
+m_server_desc.innerHTML = server.online + ` / ` + server.max + ` Max`
+server_players.setAttribute('data-players', server.online);
+server_players.setAttribute('data-max', server.max);
+server_players.setAttribute('data-count', server.count_players)
+let servers = Array.from(document.getElementsByClassName("server-player-totals"));
+let all_total_players = 0;
+let all_total_max_players = 0;
+servers.forEach(server => {
+try {
+console.log(`#server_desc_${server.getAttribute("data-serverId")}`)
+$(`#server_desc_${server.getAttribute("data-serverId")}`).toggleClass("gray", server.getAttribute('data-count') === 'false')
+if (server.getAttribute('data-count') === 'true') {
+all_total_players += parseInt(server.getAttribute('data-players'));
+all_total_max_players += parseInt(server.getAttribute('data-max'));
+}
+} catch {
+console.log("Player totals are not of type int");
+}
+})
+total_players.innerHTML = all_total_players;
+document.getElementById('max_players').innerHTML = all_total_max_players;
+document.getElementById('sync').innerHTML = '';
+server_infos = "";
+m_server_infos = "";
+server_infos = server.online + " / " + server.max + " Max"
+m_server_infos = server.online + " / " + server.max + " Max"
+}
+server_desc.innerHTML = server_infos;
+m_server_desc.innerHTML = m_server_infos;
+}
+/* Update Online Status */
+let online_status = `<span class="text-warning"><i class="fas fa-ban"></i> Offline</span>`;
+if (server.running) {
+online_status = `<span class="text-success"><i class="fas fa-signal"></i> Online</span>`;
+}
+if (server.crashed) {
+online_status = `<span class="text-danger"><i class="fas fa-exclamation-triangle"></i> Crashed</span>`
+}
+server_online_status.innerHTML = online_status;
+}
+function update_servers_status(data) {
+try {
+update_one_server_status(data[0]);
+} catch (e) {
+console.log('Failed to update server stats', e)
+}
+display_motd();
+}
+$(document).ready(function () {
+console.log('ready for JS!')
+$(".play_button").click(function () {
+server_id = $(this).attr("data-id");
+send_command(server_id, 'start_server');
+bootbox.alert({
+backdrop: true,
+title: '<span class="dynamicMsg">Sending your command</span>',
+message: '<div align="center"><i class="fas fa-spin fa-spinner"></i> &nbsp; Please be patient while we start the server.<br /> This screen will refresh in a moment </div>'
+});
+setTimeout(finishTimeout, 60000);
+});
+function finishTimeout() {
+warnServer("It seems this is taking a while...it's possible you're using UBlock or a similar ad blocker and it's causing some of our connections to not make it to the server. Try disabling your ad blocker.",
+null, 'wssError');
+}
+$(".stop_button").click(function () {
+console.log("stopping server");
+server_id = $(this).attr("data-id");
+send_command(server_id, 'stop_server');
+bootbox.alert({
+backdrop: true,
+title: 'Sending your command',
+message: '<div align="center"><i class="fas fa-spin fa-spinner"></i> &nbsp; Please be patient while we stop the server.<br /> This screen will refresh in a moment </div>'
+});
+});
+$(".restart_button").click(function () {
+server_id = $(this).attr("data-id");
+send_command(server_id, 'restart_server');
+bootbox.alert({
+backdrop: true,
+title: 'Sending your command',
+message: '<div align="center"><i class="fas fa-spin fa-spinner"></i> &nbsp; Please be patient while we restart the server.<br /> This screen will refresh in a moment </div>'
+});
+});
+$(".kill_button").click(function () {
+server_id = $(this).attr("data-id");
+bootbox.confirm({
+message: "This will kill the server process and all it's subprocesses. Killing a process can potentially corrupt files. Only do this in extreme circumstances. Are you sure you would like to continue?",
+buttons: {
+confirm: {
+label: 'Kill Process',
+className: 'btn-danger'
+},
+cancel: {
+label: 'Cancel',
+className: 'btn-secondary'
+}
+},
+callback: function (result) {
+if (result) {
+send_command(server_id, "kill_server");
+let dialog = bootbox.dialog({
+title: 'Killing process...',
+message: '<p><i class="fa fa-spin fa-spinner"></i> Loading...</p>'
+});
+}
+}
+});
+});
+if (webSocket) {
+cpu_data = document.getElementById('cpu_data');
+cpu_usage = document.getElementById('cpu_usage');
+mem_usage = document.getElementById('mem_usage');
+mem_percent = document.getElementById('mem_percent');
+webSocket.on('update_host_stats', function (hostStats) {
+let cpuDataTitle = `CPU Cores: ${hostStats.cpu_cores} <br /> CPU Current Clock: ${hostStats.cpu_cur_freq} <br /> CPU Maximum Clock: ${hostStats.cpu_max_freq}`;
+cpu_data.setAttribute('data-original-title', cpuDataTitle);
+cpu_usage.textContent = hostStats.cpu_usage;
+mem_usage.setAttribute('data-original-title', `Memory Usage: ${hostStats.mem_usage}`);
+mem_percent.textContent = hostStats.mem_percent + '%';
+var storage_html = '<div class="row">';
+for (i = 0; i < hostStats.disk_usage.length; i++) {
+if (hostStats.mounts.includes(hostStats.disk_usage[i].mount)) {
+storage_html += `<div id="host_storage" class="col-xl-3 col-lg-3 col-md-4 col-12">
+<h4 class="mb-0 font-weight-semibold d-inline-block text-truncate storage-heading mw-100" id="title_host_storage" data-toggle="tooltip" data-placement="bottom" title="${hostStats.disk_usage[i].mount}"><i class="fas fa-hdd"></i> ${hostStats.disk_usage[i].mount}</h4>
+<div class="progress d-inline-block disk-usage">
+<div class="progress-bar`;
+if (hostStats.disk_usage[i].percent_used <= 58) {
+storage_html += ` bg-success`;
+} else if (hostStats.disk_usage[i].percent_used <= 75 && hostStats.disk_usage[i].percent_used >= 59) {
+storage_html += ` bg-warning`;
+} else {
+storage_html += ` bg-danger`;
+}
+storage_html += `" role="progressbar" style="width: ${hostStats.disk_usage[i].percent_used}%;"
+aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">${hostStats.disk_usage[i].used} / ${hostStats.disk_usage[i].total}
+</div>
+</div>
+</div>`;
+}
+}
+storage_html += `</div>`;
+$(".storage-heading").tooltip('hide');
+$("#storage_data").html(storage_html);
+$("#storage_data").tooltip({ selector: '.storage-heading' });
+});
+}
+if (webSocket) {
+webSocket.on('send_start_reload', function () {
+location.reload()
+});
+}
+if (webSocket) {
+webSocket.on('update_button_status', function (updateButton) {
+let serverId = updateButton.server_id;
+let message = updateButton.string;
+let updating = updateButton.isUpdating;
+let id = 'controls' + serverId;
+if (updating) {
+console.log(updating)
+document.getElementById(id).innerHTML = message;
+}
+else {
+window.location.reload()
+}
+});
+}
+if (webSocket) {
+webSocket.on('update_server_status', update_servers_status);
+}
+$(".clone_button").click(function () {
+server_id = $(this).attr("data-id");
+bootbox.confirm({
+message: "Are you sure you would like to clone this server? This process may take a while.",
+buttons: {
+confirm: {
+label: "Clone",
+className: 'btn-outline-warning'
+},
+cancel: {
+label: 'Cancel',
+className: 'btn-secondary'
+}
+},
+callback: function (result) {
+if (result) {
+send_command(server_id, 'clone_server');
+bootbox.dialog({
+backdrop: true,
+title: 'Sending your command',
+message: '<div align="center"><i class="fas fa-spin fa-spinner"></i> &nbsp; Please be patient while we clone the server.<br /> This screen will refresh in a moment </div>',
+closeButton: false,
+});
+}
+}
+});
+});
+});
+</script>
+<script src="./Crafty Controller - Dashboard_files/jquery-ui.js.download"></script>
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/jquery-ui.css">
+<link rel="stylesheet" href="./Crafty Controller - Dashboard_files/jquery-ui.structure.css">
+<style>
+@media only screen and (max-width: 760px) {
+#mobile {
+display: none;
+}
+}
+.ui-sortable-handle {
+cursor: default;
+padding: 2px;
+}
+.ui-sortable-handle:hover {
+cursor: grab !important;
+padding: 2px;
+}
+</style>
+<script>
+/* Search Bar */
+$(document).ready(function () {
+let servers_table = $('#servers_table').DataTable({
+"ordering": false, // false to disable sorting (or any other option)
+"paging": false
+});
+const first = document.querySelector('#first')
+first !== null && first.setAttribute('draggable', false);
+$('.dataTables_length').addClass('bs-select');
+});
+/* Search Bar End */
+$(document).on("mousedown keyup click", function (event) {
+const value = $('.dataTables_filter input').val();
+const is_mobile = $('#mobile').css('display') === 'none';
+if ($("table#servers_table tbody").sortable("toArray").length > 1 && value === '' && !is_mobile) {
+$("table#servers_table tbody").sortable("enable");
+} else {
+$("table#servers_table tbody").sortable("disable");
+}
+});
+$(document).ready(function () {
+async function sendOrder(id_string) {
+const token = getCookie("_xsrf")
+let res = await fetch(`/api/v2/users/@me`, {
+method: 'PATCH',
+headers: {
+'X-XSRFToken': token
+},
+body: JSON.stringify({
+server_order: id_string,
+}),
+});
+let responseData = await res.json();
+if (responseData.status === "ok") {
+return
+} else {
+bootbox.alert({
+title: responseData.error,
+message: responseData.error_data
+});
+}
+}
+// Inits the sortable
+$("table#servers_table tbody")
+.sortable({
+items: '> tr',
+cursor: "grabbing",
+axis: "y",
+revert: true,
+handle: "i.fas.fa-server,a",
+forcePlaceholderSize: true,
+placeholder: 'table-placeholder',
+deactivate: function (event, ui) {
+// Gets the list of ids in the server list as an array,
+// and joins the elements with an [,] and sends to the server.
+const ids = $("table#servers_table tbody").sortable("toArray").join();
+try {
+sendOrder(ids);
+} catch {
+console.log("Search is actively supressing order change")
+}
+},
+});
+// Give the table an actual width so the draggable does't collapse when dragged
+$("table#servers_table")
+.children()
+.find("td")
+.each(function () {
+$(this).css("width", "").css("width", $(this).outerWidth());
+});
+// Fixes the appearance of a scrollbar when a user tries to drag an item too low
+// Disabled on mobile since sorting is disabled on mobile
+if ($('#mobile').css('display') !== 'none') {
+$("div#servers_table_wrapper").css({ overflow: "hidden" });
+}
+});
+</script>
+
+
+</body></html>
